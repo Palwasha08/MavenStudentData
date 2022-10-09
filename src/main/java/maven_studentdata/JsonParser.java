@@ -53,12 +53,7 @@ public class JsonParser {
 
 			if (list.get(i).getFirst_name().equalsIgnoreCase(value))
 				index = i;
-			/*
-			 * System.out.
-			 * println("Please enter the name of the Student you would like to search for: "
-			 * ); Scanner sc = new Scanner(System.in); String name1 = sc.nextLine();
-			 * 
-			 */
+
 		}
 		return index;
 
